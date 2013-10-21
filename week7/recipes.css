@@ -1,5 +1,5 @@
 body {
-	background: url(images/bg.png);
+	background: url(images/bg.png);/*Image bg.png taken from SubtlePatterns.com*/
 	margin: 0;
 	font-family: "Helvetca", sans-serif;
 	line-height: 1.4em;
