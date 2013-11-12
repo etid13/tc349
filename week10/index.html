@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>David Porath</title>
+        <meta name="description" content="Homepage of David Porath">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+    	<header>
+        	<h1>David Porath</h1>
+        	<h2>Web Designer, East Lansing, MI</h2>
+   		</header>
+        <div id="map-location" data-0="background-image:url(img/map_bw.jpg);opacity:.5;" data-500="background-image:url(img/map.jpg);opacity:1;" data-800="opacity:.5;">
+        </div>
+        <nav data-0='position: absolute;top: 800px;' data-800='position: absolute; top: 800px;' data-1500='position: absolute; top: 1550px;'>
+        	<ul>
+            	<li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#musings">Musings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+        	<section id="about">
+            	<h3>About Dave</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in metus quis urna interdum bibendum at nec nibh. Duis faucibus posuere diam, eget condimentum urna feugiat et. Integer id elementum nibh, eu sodales erat. Aliquam semper porta ante, quis lobortis risus condimentum sed. Ut quis metus et mi pretium gravida.</p>
+            </section>
+            <section id="portfolio">
+            	<h3>Portfolio</h3>
+                <ul class='gallery'>
+                	<li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                    <li><img alt='portfolio' src='img/homepage_compsmall.jpg'></li>
+                </ul>    
+            </section>
+            <section id="musings">
+            	<h3>Musings</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in metus quis urna interdum bibendum at nec nibh. Duis faucibus posuere diam, eget condimentum urna feugiat et. Integer id elementum nibh, eu sodales erat. Aliquam semper porta ante, quis lobortis risus condimentum sed. Ut quis metus et mi pretium gravida.</p>
+            </section>
+            <section id="contact">
+            	<h3>Contact</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in metus quis urna interdum bibendum at nec nibh. Duis faucibus posuere diam, eget condimentum urna feugiat et. Integer id elementum nibh, eu sodales erat. Aliquam semper porta ante, quis lobortis risus condimentum sed. Ut quis metus et mi pretium gravida.</p>
+            </section>
+        </article>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/skrollr.min.js"></script>
+        <script src="js/vendor/skrollr.menu.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+    	<script type="text/javascript"> 
+		if($(window).width() > 600) {
+			var s = skrollr.init();
+					
+			skrollr.menu.init(s, {
+				//skrollr will smoothly animate to the new position using `animateTo`.
+				animate: true,
+			
+				//The easing function to use.
+				easing: 'sqrt',
+			
+				//How long the animation should take in ms.
+				duration: function(currentTop, targetTop) {
+					//By default, the duration is hardcoded at 500ms.
+					return 750;
+				},
+			});
+		}
+    	</script>
+    </body>
+</html>
