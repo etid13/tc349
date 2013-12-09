@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/main.css">
+<title>David Porath-Portfolio</title>
+</head>
+
+<body>
+		<header>
+        	<h1>David Porath</h1>
+        	<h2>Web Designer, East Lansing, MI</h2>
+   		</header>
+        <nav>
+        	<ul>
+            	<li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="musings.html">Musings</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <section id="portfolio">
+            	<h3>Portfolio</h3>
+                <p class='type'>Sites:</p>
+                <ul class='gallery'>
+                	<li><img alt='image1' src='images/recipes.jpg' onclick="show_image(this.src)"></li>
+                    <li><img alt='image2' src='images/portfolio.jpg' onclick="show_image(this.src)"></li>
+                    <li><img alt='image3' src='images/cardsort.jpg' onclick="show_image(this.src)"></li>
+                </ul>
+                <p class='type'>Photos:</p>
+                <ul class='gallery'>  
+                	<li><img alt='image4' src='images/etid.jpg' onclick="show_image(this.src)"></li>
+                    <li><img alt='image5' src='images/maylene.jpg' onclick="show_image(this.src)"></li>
+                    <li><img alt='image6' src='images/poster.jpg' onclick="show_image(this.src)"></li>
+                </ul>  
+            </section> 
+        </article>
+	<script type='text/javascript'>
+	function show_image(src) {
+		window.open(src);
+	}
+	
+	</script>
+</body>
+</html>

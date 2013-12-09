@@ -1,0 +1,96 @@
+
+body{
+	border-top: 10px solid #000000;
+	
+}
+
+
+header {
+	padding: 20px;
+	background: #000000 url(../images/header.jpg) no-repeat;
+	height: 250px;
+}
+
+h1 {
+	padding-top: 10px;
+	text-align: right;
+	color: #F00;
+}
+
+h2 {
+	font-weight: normal;
+	text-align: right;
+	color: #FFFFFF;
+}
+
+h1, h2, ul{
+	margin: 0;
+}
+
+img {
+	width: 80px;
+	height: 90px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	margin-left: 5px;
+	background-color: #c3c3c3;
+}
+
+
+.gallery li{
+	display: inline-block;
+	margin: 0 2% 2% 0;
+	border: 5px solid #fff;
+	box-shadow: 0 0 10px #ccc;
+	transition: border-color .3s;
+}
+
+.type {
+	font: bold;
+}
+
+.gallery li:hover {
+	border-color: #093;
+}
+
+nav {
+	width: 100%;
+	padding: 5px;
+}
+
+nav ul {
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+nav li {
+	display:inline-block;
+	width: 20%;
+}
+nav a {
+	color: #424242;
+	text-decoration: none;
+	display:block;
+	padding: 10px;
+	border-top: 1px solid #000000;
+}
+
+nav a:hover {
+	background: #000000;
+	color: #F00;
+	 
+}
+
+#contact, .about, #musings, #portfolio {
+	text-align: center;
+}
+
+.descript {
+	padding: 5px;
+}
